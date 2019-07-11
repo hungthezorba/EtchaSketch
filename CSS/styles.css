@@ -1,0 +1,55 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Global*/
+body {
+  font-size: 16px;
+  font-family: serif;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  border: 2px ridge gray;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+/*Container*/
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#playground {
+  text-align: center;
+}
+
+/*Grid*/
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 25px);
+  margin: auto;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.grid-items {
+  border: 1px solid black;
+  height: 25px;
+}
+
+/*Mode*/
+.mode button {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
